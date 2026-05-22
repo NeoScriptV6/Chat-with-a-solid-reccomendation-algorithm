@@ -37,8 +37,6 @@ Match-Me is a full-stack web application designed to connect gamers based on the
 - Database reset and cleanup utilities
 - Postman collection included for API testing
 
-## Installation/Testing
-
 ## Postman Collection
 
 You can import this collection into Postman for easier testing. Go ROOT
