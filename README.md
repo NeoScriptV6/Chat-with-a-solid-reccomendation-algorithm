@@ -6,7 +6,7 @@ Match-Me is a full-stack web application designed to connect gamers based on the
 ## Installation/Testing
 
 
-## 📦 Postman Collection
+## Postman Collection
 
 You can import this collection into Postman for easier testing. Go ROOT
 The Postman collection is in the root of the project
@@ -38,7 +38,7 @@ Content-Type: application/json
 
 ---
 
-## 🔐 Login
+## Login
 
 **POST** `/api/login`
 
@@ -55,7 +55,7 @@ Logs in a user and returns a JWT token.
 
 ---
 
-## 👥 Get Recommendations
+## Get Recommendations
 
 **GET** `/api/recommendations`
 
@@ -70,7 +70,7 @@ Content-Type: application/json
 
 ---
 
-## 🔁 Get Connections
+## Get Connections
 
 **GET** `/api/connections`
 
@@ -78,7 +78,7 @@ Returns the current user's connections.
 
 ---
 
-## 🧪 Create Test Users
+## Create Test Users
 
 **POST** `/api/test-data/generate?count=100`
 
@@ -92,7 +92,7 @@ Authorization: Bearer <your-jwt-token>
 
 ---
 
-## 🧹 Delete Test Users
+## Delete Test Users
 
 **DELETE** `/api/test-data/clean`
 
@@ -116,7 +116,7 @@ Authorization: Bearer <your-jwt-token>
 
 ---
 
-## 👤 User Profile Endpoints (`/me`)
+## User Profile Endpoints (`/me`)
 
 | Endpoint           | Method | Description                      |
 | ------------------ | ------ | -------------------------------- |
@@ -126,7 +126,7 @@ Authorization: Bearer <your-jwt-token>
 
 ---
 
-## 📁 Deprecated / Duplicated Endpoints?
+## Deprecated / Duplicated Endpoints?
 
 These may duplicate `/me` routes (verify and remove if unused):
 
