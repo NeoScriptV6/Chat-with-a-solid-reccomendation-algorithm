@@ -2,9 +2,42 @@
 
 Match-Me is a full-stack web application designed to connect gamers based on their profile information, preferences, and interests. Whether you're looking for a teammate for competitive matches, a co-op partner, or someone to share casual gaming sessions with, Match-Me uses an intelligent recommendation algorithm to help you find the perfect gaming partner.
 
+## Key Features
+
+### Intelligent Player Matching
+- Recommendation engine based on shared:
+  - Favorite games (highest weight)
+  - Genres
+  - Platforms
+  - Availability schedules
+  - Interests and keywords
+- Ranked scoring system to surface the most compatible matches first
+- Dismissal system to refine future recommendations
+
+### User Profiles
+- Customizable profiles including:
+  - Bio and profile picture
+  - Gaming preferences
+  - Biographical attributes (games, genres, platforms, availability)
+- Editable at any time
+- Default avatar fallback support
+
+### Social & Connections
+- Send, accept, and manage connection requests
+- View active connections and pending invites
+- Disconnect functionality
+
+### Real-Time Chat System
+- WebSocket-based messaging between connected users
+- Persistent chat history with pagination
+- Unread message indicators
+
+### Test & Development Tools
+- Generate large-scale test datasets (100+ users)
+- Database reset and cleanup utilities
+- Postman collection included for API testing
 
 ## Installation/Testing
-
 
 ## Postman Collection
 
